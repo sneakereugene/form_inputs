@@ -1,0 +1,101 @@
+body{
+	background: linear-gradient(45deg, #227066, #76A665);
+	font-family: Arial, sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+input[type="submit"],
+input[type="button"],
+button{
+	background: linear-gradient(45deg, #227066, #76A665);
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	box-shadow: 0 0 80px #83ceb1;
+	border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="submit"],
+textarea,
+select {
+	color: #7a7b7f;
+	background: #bfdacb;
+	border: none;
+	margin: 10px 5px;
+	border-radius: 4px;
+	height: 39px;
+	width: 390px;
+	padding: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	box-shadow: 0 0 80px #83ceb1;
+	border: none;
+}
+textarea {
+
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 470px;
+	width: 460px;
+	border-radius: 6px;
+	background-color:#C1C0B9;
+	box-shadow: 0 0 80px #0b3e2a;
+	padding: 30px;
+}
+.title{
+	display: flex;
+}
+img{
+	width: 27px;
+	height: 27px;
+}
+h1{
+	font-size: 26px;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+p{
+	font-size: 0.9em;
+}
+a{
+	text-decoration: none;
+}
+#half{
+	width: 185px;
+}
+#submit{
+	background: linear-gradient(45deg, #227066, #76A665);
+	height: 56px;
+	color: #FFF;
+}
